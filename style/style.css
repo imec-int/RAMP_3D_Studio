@@ -52,14 +52,24 @@ div#camButtons {
 	z-index: 1;
 	background-color: rgba(30, 30, 95, 0.8);
 	color: white;
+	width: 200px;
+	height: 120px;
 }
 
 #camButtons span{
 	cursor: pointer;
-	padding: 10px;
+	padding: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	color: white;
 	border: white 2px solid;
 	display: inline-block;
+	position: absolute;
+}
+
+.activeCam{
+	color: rgba(30, 30, 95, 1);
+	background-color: white;
 }
 
 div#shareButtons {
